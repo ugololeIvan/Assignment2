@@ -2,17 +2,11 @@
 <html>
     <head>
         <title>Assignment 2 book review</title>
+        
         <!--This adding my own custom class-->
         <link rel="stylesheet" href="css/custom-class.css"/>
         
-        <!-- The lastest compiled and minified css-->
-        <link rel="stylesheet" href="css/bootstrap.min.css"/>
-        
-        <!--The jquery library for quick ultilisation of javascript -->
-        <script src="js/jquery-3.3.1.min.js"></script>
-        
-        <!-- Latest compiled JavaScript-->
-        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/grid.css">
         
         <!--To allow for mobile responsiveness-->
         <meta name="viewport" 
@@ -20,57 +14,130 @@
     </head>
     
     <body>
-        <div class="container">
+        <div class="row header">
             
-            <!--The heading of the page-->
-            <div class="row">
-                <di class="col-lg-12">
-                    <h1 class="text-center">Documentation on how to use bootstrap</h1>
-                </di>
+            <!--The logo-->
+            <div class="col four">
+                <div class="shadow"></div>
             </div>
             
-            <!--Second content-->
-            <div class="row">
-                
-                <!--empty div-->
-                <div class="col-lg-2"></div>
-                
-                <!--content div-->
-                <div class="col-lg-4">
-                    <div class="shadow">
-                    <p><strong>What is bootstrap?</strong></p>
-                    <p>This is a front-end web frame work for easy and faster web development. This includes HTML and CSS based designed templates for designing: </p>
-                    
-                    <ul>
-                        <li>typograph</li>
-                        <li>Buttons</li>
-                        <li>Forms</li>
-                        <li>Tables</li>
-                        <li>Navigation</li>
-                        <li>Models</li>
-                        <li>And Other stuff</li>
-                    </ul>
-                    <p>It comes with the ability to create responsive design.s</p>
-                    </div>
-                </div>
-                
-                <!--content div-->
-                <div class="col-lg-4">
-                    <div class="shadow">
-                    <p><strong>How to use bootstrap?</strong></p>
-                    <p>Start by downloading bootstrap from the internet from the web page list here: <u class="bg-info">https://getbootstrap.com/docs/4.0/getting-started/download/</u></p>
-
-                    <p>You could also download jQuery library which in most cases is used in conjunction with bootstrap it’s purpose will be discussed later. The jQuery link is list here: <u>https://jquery.com/download/.</u></p>
-
-                    <p>Extra the content found in the downloaded zip folder and place the CSS based files in a folder called CSS and the JS based files in a folder called JS. This approach is favored over using CDN “Content Deliver Network” approach because the CDN approach requires internet to contact the server that contain the respective JS and CSS files. And incase these severs are down for any reason, your site will not have the design you have chosen. Hence have copies of the JS and CSS files in your working directory is better option “as a man must be responsible for his tools”. </p>
-		    <p>Randomly added information to test the need to retype the password.</p>
-                    </div>
-                </div>
-                
-                <!--empty div-->
-                <div class="col-lg-2"></div>
+            <!--The navigation-->
+            <div class="col eight">
+                <div class="shadow"></div>
             </div>
             
+        </div>
+        
+        <div class="row content">
+            <!--List of items-->
+            <div id="list" 
+                 class="col four fixed">
+                <div class="shadow">
+                </div>
+            </div>
+            
+            <!--Individual chapters-->
+            <div class="col eight liquid">
+               <div class="row">
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   
+               </div> 
+                <div class="row">
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   
+               </div> 
+                <div class="row">
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   
+               </div> 
+                <div class="row">
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   
+               </div> 
+                <div class="row">
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   
+               </div> 
+                <div class="row">
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   
+               </div> 
+                <div class="row">
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   
+               </div> 
+                <div class="row">
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   
+               </div> 
+                <div class="row">
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   <div class="col six">
+                       <div class="shadow">
+                       </div>
+                   </div>
+                   
+               </div> 
+            </div>
         </div>
     </body>
 </html>

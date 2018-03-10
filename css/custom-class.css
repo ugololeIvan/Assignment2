@@ -1,17 +1,19 @@
 .shadow{
     box-shadow: 0px 0px 20px grey;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
+    /*margin: 10px 10px 10px 10px;*/
+    /*padding: 10px 10px 10px 10px;*/
     border-radius: 20px;
-    background: #efefef;
-    color:black;
+    background: white;
+    color:black;  
+    height: 100px;
 }
 
-/*show appearence of grid*/
-.col-lg-2{
+/*show appearence of grid
+.col{
     border: 1px solid black;
 }
 
-.col-lg-4{
+.col{
     border: 1px solid black;
-}
+}*/
+
