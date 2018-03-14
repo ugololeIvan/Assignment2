@@ -30,7 +30,7 @@ body {
 
 .content{
     position: absolute;
-    top: 150px;
+    top: 100px;
     z-index: 5;
 }
 
@@ -95,7 +95,7 @@ body {
     
     .content{
         position: absolute!important;
-        top:110px !important;
+        top:30px !important;
     }
     
     .liquid{
