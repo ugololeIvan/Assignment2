@@ -7,7 +7,7 @@
 }
 .shadow:hover{
     cursor: pointer;
-    box-shadow:  0px 0px 20px grey;
+    box-shadow:  0px 0px 25px grey;
 }
 
 .headerStyleDiv{
@@ -77,14 +77,42 @@
 
 .pBottom{
     position: relative;
-    top: 170px;
+    top: 0px;
 }
-
 
 hStyle{
     margin: 0px 0px 0px 0px;
     border:1px solid black;
     text-align: center;
 }
+
+.changeColor {
+   background: red;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+a.active {
+  border-bottom: 2px solid #ecf0f1;
+}
+
+section {
+  width: 100%;
+  padding: 50px;
+  background: #fff;
+  height: 500px;
+  text-align: center;
+}
+
+.sections section:first-child {
+  margin-top: 0px;
+}
+
+.sixth{
+    margin-top: 50px;
+}
+section.active {}
 
 
