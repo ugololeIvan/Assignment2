@@ -78,9 +78,11 @@
 .p24{
     font-size: 24pt;
     font-weight: bold;
+    margin: 0px 0px 0px 0px;
 }
 .p16{
     font-size: 16pt;
+    margin: 0px 0px 0px 0px;
 }
 
 .pBottom{
