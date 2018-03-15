@@ -1,9 +1,13 @@
 .shadow{
-    box-shadow: 0px 0px 20px grey;
+    box-shadow: 0px 0px 15px grey;
     border-radius: 20px;
     background: white;
     color:black;  
-    height: 400px;
+    height: 300px;
+}
+.shadow:hover{
+    cursor: pointer;
+    box-shadow:  0px 0px 20px grey;
 }
 
 .headerStyleDiv{
@@ -35,8 +39,8 @@
 }
 
 
-img{
-    /*border-radius: 20px;*/
+.changeImage{
+    background-image: url(../images/final_images/Main_page_image3.jpg);
 }
 
 .aStyle{
@@ -50,11 +54,17 @@ img{
 }
 .listStyle{
     list-style: none;
+    font-size: 14pt;
 }
 .listStyle li{
     margin-top: 10px;
 }
 
+.divLeftAlign{
+    position:relative;
+    left: 20%;
+    /*float:right;*/
+}
 .pNoTopMargin{
     margin: 0px 0px 0px 0px;
 }
@@ -64,6 +74,17 @@ img{
     font-weight: bold;
 }
 .p16{
-    font-size: 16;
-    font-weight: bold;
+    font-size: 16pt;
 }
+
+tileStyle{
+    text-align: center;
+}
+
+hStyle{
+    margin: 0px 0px 0px 0px;
+    border:1px solid black;
+    text-align: center;
+}
+
+
