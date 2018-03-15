@@ -3,7 +3,7 @@
     border-radius: 20px;
     background: white;
     color:black;  
-    height: 400px;
+    height: 420px;
 }
 .shadow:hover{
     cursor: pointer;
@@ -95,7 +95,12 @@
 }
 
 nav ul li a {
-  text-decoration: none;
+    text-decoration: none;
+    color:black;
+}
+
+.bold{
+     font-weight: bolder;
 }
 
 a.active {

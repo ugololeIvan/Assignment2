@@ -29,3 +29,11 @@ nav.find('a').on('click', function () {
   
   return false;
 });
+
+function page1(){
+   window.location.href  = '../Assignment 2/pages/page1.html';
+}
+
+function page2(){
+   window.location.href  = '../Assignment 2/pages/page2.html';
+}
