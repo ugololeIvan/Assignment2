@@ -7,7 +7,7 @@
 }
 .shadow:hover{
     cursor: pointer;
-    box-shadow:  0px 0px 25px grey;
+    box-shadow:  0px 0px 45px grey;
 }
 
 .headerStyleDiv{
@@ -80,7 +80,11 @@
     top: 0px;
 }
 
-hStyle{
+.smallPadding{
+    padding : 5% 5% 5% 5%;
+}
+
+.hStyle{
     margin: 0px 0px 0px 0px;
     border:1px solid black;
     text-align: center;
