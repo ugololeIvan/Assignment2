@@ -31,9 +31,9 @@ nav.find('a').on('click', function () {
 });
 
 function page1(){
-   window.location.href  = '../Assignment 2/pages/page1.html';
+   window.location.href  = 'page1.html';
 }
 
 function page2(){
-   window.location.href  = '../Assignment 2/pages/page2.html';
+   window.location.href  = 'page2.html';
 }
