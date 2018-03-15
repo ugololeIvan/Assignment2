@@ -3,7 +3,7 @@
     border-radius: 20px;
     background: white;
     color:black;  
-    height: 300px;
+    height: 400px;
 }
 .shadow:hover{
     cursor: pointer;
@@ -60,15 +60,13 @@
     margin-top: 10px;
 }
 
-.divLeftAlign{
-    position:relative;
-    left: 20%;
-    /*float:right;*/
-}
 .pNoTopMargin{
     margin: 0px 0px 0px 0px;
 }
 
+.pWhite{
+    color:white;
+}
 .p24{
     font-size: 24pt;
     font-weight: bold;
@@ -77,9 +75,11 @@
     font-size: 16pt;
 }
 
-tileStyle{
-    text-align: center;
+.pBottom{
+    position: relative;
+    top: 170px;
 }
+
 
 hStyle{
     margin: 0px 0px 0px 0px;
