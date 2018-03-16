@@ -71,6 +71,11 @@
     margin-top: 10px;
 }
 
+.listStyle li a:hover{
+    color: blue;
+    font-weight: bolder;
+}
+
 .pNoTopMargin{
     margin: 0px 0px 0px 0px;
 }
@@ -114,6 +119,11 @@ nav ul li a {
 
 .bold{
      font-weight: bolder;
+     color: blue;
+}
+
+.bold a{
+    color: blue;
 }
 
 a.active {
