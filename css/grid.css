@@ -127,8 +127,14 @@ body {
         position: relative;
         top:110px !important;
     }
+    
     .search{
         width:100% !important;
+    }
+    
+    .table{
+        width:100% !important;
+        height: 100% !important;
     }
     
     #list{

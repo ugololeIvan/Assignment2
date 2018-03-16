@@ -175,5 +175,16 @@ section.active {}
     background: grey; 
 }
 
+.fullWidth{
+    width:100%;
+}
 
+.table{
+    width:200px;
+    height: 200px;
+}
+
+.area{
+    overflow: auto;
+}
 

@@ -97,6 +97,10 @@ function page15(){
 function page16(){
    window.location.href = 'page16.html';
 }
+
+function contact(){
+   
+}
 function anchor(anchorValue){
 	var objDiv = document.getElementById("(anchorValue)");
         objDiv.scrollTop = objDiv.scrollHeight;
