@@ -36,7 +36,7 @@ body {
 
 .divList{
     position: absolute;
-    left: 5%;
+    left: 2%;
     overflow:auto;
     height: 500px;
 }
