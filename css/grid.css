@@ -132,6 +132,10 @@ body {
         width:100% !important;
     }
     
+    .header{
+        position:relative !important;
+    }
+    
     .table{
         width:100% !important;
         height: 100% !important;
