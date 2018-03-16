@@ -185,6 +185,11 @@ section.active {}
 }
 
 .area{
-    overflow: auto;
+    width:inherit;
 }
 
+.button{
+    width:100px;
+    height: 50px;
+    float: right;
+}
