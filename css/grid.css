@@ -97,7 +97,12 @@ body {
     width:100%;
 }
 
-@media(max-width: 600px){
+.search{
+    float:right;
+    width:20%;
+}
+
+@media(max-width: 800px){
     .col{
         width:100% !important;
         /*top right button left*/
@@ -121,6 +126,9 @@ body {
     .mainPageContent{
         position: relative;
         top:110px !important;
+    }
+    .search{
+        width:100% !important;
     }
     
     #list{
