@@ -30,6 +30,10 @@ nav.find('a').on('click', function () {
   return false;
 });
 
+function home(){
+   window.location.href = 'index.html';
+}
+
 function page1(){
    window.location.href  = 'page1.html';
 }
