@@ -42,7 +42,8 @@ body {
 }
 
 .divList::-webkit-scrollbar{
-    width: 0 !important }
+    width: 0 !important 
+}
 
 .fixed{
     position: fixed;
@@ -53,7 +54,6 @@ body {
     z-index: 1px;
     left:32%;
 }
-
 
 .col:first-child{margin-left:0px;}
 
@@ -116,6 +116,11 @@ body {
     }
     .changeImage{
         background-image: url(../images/final_images/Main_page_image2.jpg) !important;
+    }
+    
+    .mainPageContent{
+        position: relative;
+        top:110px !important;
     }
     
     #list{
